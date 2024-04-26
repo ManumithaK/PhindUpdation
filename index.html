@@ -5,18 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Services Company</title>
     <style>
-        /* CSS styles remain unchanged */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .service {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .service img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .service p {
+            flex-grow: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form h2 {
+            margin-bottom: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <header>
-        <!-- Header content remains unchanged -->
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
     </header>
     <div class="content">
-        <!-- Content remains unchanged -->
+        <h1>Welcome to Our Media Services Company</h1>
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <p>We offer a wide range of media services including video production, editing, and post-production. Our team of experts is dedicated to delivering high-quality content that meets your needs.</p>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <p>Our services extend to live streaming, podcasting, and social media management. We ensure your content reaches your audience effectively and engages them in meaningful ways.</p>
+        </div>
     </div>
     <footer>
-        <!-- Footer content remains unchanged -->
+        &copy; 2024 Media Services Company. All rights reserved.
     </footer>
     <form>
         <h2>Contact Us</h2>
